@@ -15,7 +15,7 @@ Follow the below steps to execute the Project -
 4. In config.properties file configure the max limit for foreign playes in "foreignPlayerLimit"
 and number of wicket keepers required in "wicketKeeper" path - src/main/java/config/config.properties
 
-5. Run TestNG.xml
+5. Run Coding Assignment script from the Run Menu or from the clipboard.
 
 6. Reports will be generated inside "test-output" directory in html format
 
