@@ -1,36 +1,18 @@
 package config;
 
-import org.testng.ITestResult;
-import org.testng.annotations.*;
-
-import java.lang.reflect.Method;
-
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import responsePojo.TeamPojo;
 public class RestBase  {
-//    @BeforeSuite(alwaysRun = true)
-//    public void beforeSuite() {
-//        System.out.println("Before Suite");
-//    }
-//
-//    @BeforeClass(alwaysRun = true)
-//    public void beforeClass() {
-//        System.out.println("Before Class");
-//    }
-//
-//    @BeforeMethod(alwaysRun = true)
-//    public void beforeMethod(Method name,@Optional Object[] testData) {
-//        System.out.println("Before Method");
-//    }
-//
-//
-//    @AfterMethod(alwaysRun = true)
-//    public void afterMethod(ITestResult result) throws NullPointerException {
-//        System.out.println("After Method");
-//    }
-//
-//
-//    @AfterSuite(alwaysRun = true)
-//    public void afterSuite() throws Exception {
-//        System.out.println("After Suite");
-//
-//    }
+public JsonParser parser;
+public Gson gson ;
+public TeamPojo apiDefinition(String playerData){
+    parser= new JsonParser();
+    gson = new Gson();
+    playerData=playerData.replace("price-in-crores","priceInCrores");
+    JsonObject res = parser.parse(playerData).getAsJsonObject();
+    TeamPojo resPojo = gson.fromJson(res, TeamPojo.class);
+    return resPojo;
+}
 }

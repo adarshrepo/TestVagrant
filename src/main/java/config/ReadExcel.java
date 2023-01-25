@@ -25,25 +25,25 @@ public class ReadExcel {
         return resultList;
 
     }
-    private static List<Integer> getIndexListOfRow(String SheetName,String testCaseName) throws IOException {
+    private static List<Integer> getIndexListOfRow(String SheetName,String Team) throws IOException {
         FileInputStream fis=new FileInputStream(new File(testDataPath));
         XSSFWorkbook wb=new XSSFWorkbook(fis);
         List<Integer> resultList=new ArrayList<>();
         Sheet sh=wb.getSheet(SheetName);
         int totalRow=sh.getLastRowNum();
         for(int i=1;i<=totalRow;i++)
-            if (sh.getRow(i).getCell(0).getStringCellValue().equals(testCaseName)){
+            if (sh.getRow(i).getCell(0).getStringCellValue().equals(Team)){
                 resultList.add(i);
             }
         return resultList;
 
     }
-    public static Object[][] readTestData(String SheetName,String testCaseName,List<String> columnList) throws IOException {
+    public static Object[][] readTestData(String SheetName,String Team,List<String> columnList) throws IOException {
         {
             FileInputStream fis=new FileInputStream(new File(testDataPath));
             XSSFWorkbook wb=new XSSFWorkbook(fis);
             Sheet sh=wb.getSheet(SheetName);
-            List<Integer> rowIndex=getIndexListOfRow(SheetName,testCaseName);
+            List<Integer> rowIndex=getIndexListOfRow(SheetName,Team);
             List<Integer> columnIndex=getIndexListOfColumn(SheetName,columnList);
             Object[][] resultTestData=new Object[rowIndex.size()][columnIndex.size()];
             int counter=0;
