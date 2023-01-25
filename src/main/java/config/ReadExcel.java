@@ -5,11 +5,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-
+//Reads the test data excel file and returns the desired cell values**********
 public class ReadExcel {
-    public static String testDataPath="/Users/dealshare/Downloads/TestVagrant/src/main/java/testData/playerDetails.xlsx";
+    public static String testDataPath="src/main/java/testData/playerDetails.xlsx";
     private static List<Integer> getIndexListOfColumn(String SheetName,List<String> columnList) throws IOException {
         FileInputStream fis=new FileInputStream(new File(testDataPath));
         XSSFWorkbook wb=new XSSFWorkbook(fis);
