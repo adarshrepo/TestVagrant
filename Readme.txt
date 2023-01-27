@@ -4,7 +4,10 @@ Readme file for TestVagrant coding assessment Programs Using Rest Assured & Java
 java 1.8.0_321
 RestAssured 4.3
 
-Follow the below steps to execute the Project -
+Note: This document mentions only the steps to execute this project. 
+This is not a highlevel description of the entire project
+
+Steps to execute the Project -
 
 1. Clone Project in your local machine.
 
