@@ -24,6 +24,7 @@ public class TeamValidations extends BaseTest {
 //    Test method to check the wicketkeeper count***************
     @Test(priority = 2)
     public void wicketKeeperAvailablity(){
+
         method.wicketKeeperAvailability(response);
     }
 //    Reads testdata file in xlsx format and returns the values *********

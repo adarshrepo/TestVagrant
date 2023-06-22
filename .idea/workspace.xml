@@ -5,8 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81c42f5f-0c15-43bc-b01c-d727d7f3be58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/AddNumbersinString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/Calculation_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/CheckIsDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/FindIntegersInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/FirstOccuranceIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/HighestNoOfLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/LongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/LongestWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/MaxNumberElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/NumberSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/RearangeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/RemoveDuplicateInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/RemoveDuplicateNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/RepeatArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/SearchInsertposition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/SortingCharInterwise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/SortingIntegerArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/SplitEvenNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/SplitString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/StringPblm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/StringTokeniser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/kthNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TeamValidations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TeamValidations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,15 +57,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/dealshare/Downloads/TestVagrant/src/main/config"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dealshare/Downloads/TestVagrant/src/main/config&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/config" />
@@ -54,7 +79,41 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.AddNumbersinString">
+    <configuration name="AddNumbersinString" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVagrant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.AddNumbersinString" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckIsDigit" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVagrant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CheckIsDigit" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Coding Assigment" type="TestNG">
       <module name="TestVagrant" />
       <shortenClasspath name="NONE" />
@@ -76,6 +135,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchInsertposition" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVagrant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.SearchInsertposition" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SplitEvenNumber" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVagrant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.SplitEvenNumber" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kthNumber" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVagrant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.kthNumber" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AddNumbersinString" />
+        <item itemvalue="TestNG.CheckIsDigit" />
+        <item itemvalue="TestNG.kthNumber" />
+        <item itemvalue="TestNG.SplitEvenNumber" />
+        <item itemvalue="TestNG.SearchInsertposition" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -98,5 +217,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Tests/SplitString.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
